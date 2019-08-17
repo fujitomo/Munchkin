@@ -1,0 +1,1628 @@
+@charset "UTF-8";
+
+ @media screen and (min-width:1024px) { /*ウィンドウ幅が1024px以上の場合に適用(PC)*/
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 980px;
+}
+
+/* --------------------------------
+ * header
+ * -------------------------------- */
+
+.header {
+  width: 100%;
+  height: 81px;
+  display: flex;
+  justify-content: space-between;
+}
+
+  header .logo {
+    margin-top:12px;
+    margin-left: 16%;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    width:363px;
+    height:100px;
+    background-size: 359px  58px;
+  }
+
+header nav {
+  margin-top: 32px;
+  margin-right: -31%;
+}
+
+header li {
+  /* line-height: 100px; 行の高さ */
+  float: left;
+  /*左に流す*/
+  margin-left: 40px;
+  /* li間の幅を開くために左にマージンを取っている */
+  font-size: 18px;
+  font-family: "YuGothic", "Yu Gothic";
+  font-weight: bold;
+  color: #5F2201;
+  cursor: pointer;
+}
+
+/* --------------------------------
+ * title_image
+ * -------------------------------- */
+
+.title_image {
+  height: 738px;
+  background: url('../images/cat_1_A0_Group_14_pattern.png') no-repeat;
+  background-size:auto 51.25vw;
+}
+
+/* --------------------------------
+ * main
+ * -------------------------------- */
+
+.main {}
+
+.title {
+  font-size: 36px;
+  font-family: "YuGothic", "Yu Gothic";
+  font-weight: "bold";
+  color: #5F2201;
+  text-align: center;
+  width: 100%;
+  line-height: 180px;
+  margin-top: 29px;
+  margin-left: -1px;
+}
+
+.text {
+  font-size: 16px;
+  font-family: "YuGothic", "Yu Gothic";
+  color: #000000;
+  line-height: 27px;
+}
+
+.btn {
+  height: 50px;
+  text-align: center;
+  background-color: #FFFFFF;
+  color: #5F2201;
+  font-size: 16px;
+  border-width: medium;
+  font-family: "YuGothic", "Yu Gothic";
+  font-weight: bold;
+  border-color: #5F2201;
+  border-radius: 25px 25px 25px 25px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #FFFFFF;
+  background-color: #5F2201;
+}
+
+.skill_container {
+  height: 964px;
+}
+
+.skill_container .skill_item1 {
+
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 85px;
+  margin-top: 26px;
+  
+}
+
+.img_cat2 {
+  width:100%;
+  background: url('../images/cat-2.png') no-repeat;
+}
+
+.skill_container .skill_text1 {
+  width: 685px;
+  margin-right: -8px;
+  margin-top: -1px;
+}
+
+.skill_container .skill_item2 {
+  width: 790px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 85px;
+  margin-top: 26px;
+  margin-left:210px;
+  
+}
+.img_cat3 {
+  width:100%;
+  background: url('../images/cat-3.png') no-repeat;
+  margin-left:19%;
+}
+
+.skill_container .skill_text2 {
+  width: 100%;
+  margin-left:-210px;
+}
+
+.about_container {
+  background-color: #FFF3DD;
+  height: 710px;
+}
+
+.about_container .about_title {
+   position: relative;
+   top:30px;
+}
+
+.about_container .about {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about_container .about .about_item {
+  text-align: center;
+  margin-top:5px;
+}
+
+.about_container .about .about_item p {
+  margin-top: 24px;
+}
+
+.about_container .about .about_item .img_cat4  {
+  width:100%;
+  height: 320%;
+  background: url('../images/cat-4.png') no-repeat;
+  margin-left:28px;
+}
+
+.about_container .about .about_item .img_cat5 {
+  width:100%;
+  height: 320%;
+  background: url('../images/cat-5.png') no-repeat;
+  margin-left:28px;
+}
+
+.about_container .about_btn_wrapper {
+  margin-top: 295px;
+  text-align: center;
+}
+
+.about_container .about_btn_wrapper .about_btn {
+  width: 120px;
+}
+
+.contact_container {
+  height: 557px;
+}
+
+.contact_container .contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -26px;
+  margin-left: -44px;
+}
+
+.contact_container .contact_item {
+  text-align: center;
+}
+
+.contact_container .img_cat6 {
+  width:100%;
+  height: 300px;
+  margin-left: 132px;
+  background: url('../images/cat-6.png') no-repeat;
+}
+
+.container .contact .contact_item .contact_text{
+  width: 235px;
+  margin-right: 120px;
+}
+
+.contact_container .contact_btn_wrapper .contact_btn {
+  width: 100px;
+  margin-top: 25px;
+  margin-right: 120px;
+}
+
+/* --------------------------------
+ * footer
+ * -------------------------------- */
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #B9B9B9;
+  display: table;
+}
+
+.footer_title {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "YuGothic", "Yu Gothic";
+  font-size: 12px;
+  display: table-cell;
+  vertical-align: middle;
+}
+ }
+
+
+@media screen and (min-width: 500px) and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用(SP)*/
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 375px;
+  }
+  
+  /* --------------------------------
+   * header
+   * -------------------------------- */
+  
+  .header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  header .logo {
+    margin-top:20px;
+    margin-left: 3.69%;
+    background-image: url("../images/logo_SP.png");
+    background-repeat: no-repeat;
+    width:100%;
+    height:100px;
+    background-size: 132px;
+  }
+  
+  header nav {
+    margin-top: 32px;
+    margin-right: 4%;
+  }
+  
+  header li {
+    margin-top:74px;
+    margin-bottom: 120px;
+    /* li間の幅を開くために左にマージンを取っている */
+    font-size: 26px;
+    font-family: "YuGothic", "Yu Gothic";
+    font-weight: bold;
+    color: #5F2201;
+    cursor: pointer;
+  }
+  
+  /* --------------------------------
+   * title_image
+   * -------------------------------- */
+  
+  .title_image {
+    height: 192px;
+    background: url('../images/cat_1_A0_Group_14_pattern.png') no-repeat;
+    background-size:auto 51.25vw;
+  }
+  
+  /* --------------------------------
+   * main
+   * -------------------------------- */
+  
+  .main {}
+  
+  .title {
+    font-size: 20px;
+    font-family: "YuGothic", "Yu Gothic";
+    font-weight: "bold";
+    color: #5F2201;
+    text-align: center;
+    width: 100%;
+    line-height: 180px;
+    margin-top: -26px;
+  }
+  
+  .text {
+    font-size: 14.5px;
+    font-family: "YuGothic", "Yu Gothic";
+    color: #000000;
+    line-height: 26px;
+  }
+  
+  .btn {
+    height: 50px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #5F2201;
+    font-size: 16px;
+    border-width: medium;
+    font-family: "YuGothic", "Yu Gothic";
+    font-weight: bold;
+    border-color: #5F2201;
+    border-radius: 25px 25px 25px 25px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    color: #FFFFFF;
+    background-color: #5F2201;
+  }
+  
+  .skill_container {
+    height: 1134px;
+  }
+  
+  .skill_container .skill_item1 {
+    height: 300px;
+    margin-bottom: 85px;
+    margin-top: -43px;
+    margin-left: 14px;
+  }
+  
+  .img_cat2 {
+    height: 100%;
+    background: url('../images/cat-2_SP.png') no-repeat;
+  }
+  
+  .skill_container .skill_text1 {
+    width: 96%;
+    margin-top: -13px;
+  }
+  
+  .skill_container .skill_item2 {
+    display: flex; 
+    flex-direction: column-reverse;
+    height: 550px;
+    margin-top:-37px;
+    margin-left: 15px;
+  }
+  
+  .img_cat3 {
+    width:97%;
+    height: 259px;
+    background: url('../images/cat-3.png') no-repeat;
+    background-size: 100%;
+  }
+  
+  .skill_container .skill_text2 {
+    width: 355px;
+    position: relative;
+    top:30px;
+  }
+  
+  .about_container {
+    background-color: #FFF3DD;
+    height: 947px;
+  }
+  
+  .about_container .about_title {
+     position: relative;
+     top:-30px;
+  }
+  
+  .about_container .about {
+    width: 83%;
+    margin-top:-80px;
+    margin-left:63px;
+    
+  }
+  
+  .about_container .about .about_item {
+    text-align: center;
+  }
+  
+  .about_container .about .about_item p {
+    margin-top: -141px;
+    margin-left:-22%;
+  }
+  
+  .about_container .about .about_item .img_cat4  {
+    width:300px;
+    height: 420px;
+    background: url('../images/cat-4.png') no-repeat;
+    margin-top:5px;
+  }
+  
+  .about_container .about .about_item .img_cat5 {
+    width:300px;
+    height: 420px;
+    background: url('../images/cat-5.png') no-repeat;
+    margin-top:40px;
+  }
+  
+  .about_container .about_btn_wrapper {
+    margin-top: 42px;
+    text-align: center;
+  }
+  
+  .about_container .about_btn_wrapper .about_btn {
+    width: 120px;
+  }
+  
+  .contact_container {
+    height: 629px;
+  }
+  
+  .contact_container .contact {
+    align-items: center;
+    margin-top: -44px;
+    margin-left: 69px;
+  }
+  
+  .contact_container .contact_item {
+    text-align: center;
+  }
+  
+  .contact_container .img_cat6 {
+    width:300px;
+    height: 420px;
+    margin-left: -32px;
+    background: url('../images/cat-6.png') no-repeat;
+  }
+  
+  .container .contact .contact_item .contact_text{
+    width: 235px;
+    margin-top: -75px;
+  }
+  
+  .contact_container .contact_btn_wrapper .contact_btn {
+    width: 100px;
+    margin-top: 25px;
+    margin-right: 70px;
+  }
+  
+  /* --------------------------------
+   * footer
+   * -------------------------------- */
+  
+  .footer {
+    width: 100%;
+    height: 30px;
+    background-color: #B9B9B9;
+    display: table;
+  }
+  
+  .footer_title {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "YuGothic", "Yu Gothic";
+    font-size: 12px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+    /* --------------------------------
+   * ハンバーガーメニュー
+   * -------------------------------- */
+  .global-nav {
+    position: fixed;
+    right: -390px; /* これで隠れる */
+    top: 0;
+    width: 375px; /* スマホに収まるくらい */
+    height: 721px;
+    padding-top: 90px;
+    text-align: center;
+    background-color: #DDDDDD;
+    transition: all .6s;
+    z-index: 200;
+    overflow-y: auto; /* メニューが多くなったらスクロールできるように */
+  }
+  .hamburger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 75px; /* クリックしやすいようにちゃんと幅を指定する */
+    height: 40px; /* クリックしやすいようにちゃんと高さを指定する */
+    margin-top:10px;
+    cursor: pointer;
+    z-index: 300;
+  }
+  .global-nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .global-nav__item {
+    text-align: center;
+    padding: 0 14px;
+  }
+  .global-nav__item a {
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+    color: #111;
+  }
+  .global-nav__item a:hover {
+    background-color: #eee;
+  }
+  .hamburger__line {
+    position: absolute;
+    left: 11px;
+    width: 18px;
+    height: 2px;
+    background-color: #5F2201;
+    transition: all .6s;
+  }
+  .hamburger__line--1 {
+    top: 14px;
+  }
+  .hamburger__line--2 {
+    top: 20px;
+    
+  }
+  .hamburger__line--3 {
+    top: 26px;
+  }
+  .black-bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background-color: #000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .6s;
+    cursor: pointer;
+  }
+  /* 表示された時用のCSS */
+  .nav-open .global-nav {
+    right: -15px; 
+    top:-32px;
+  }
+  .nav-open .black-bg {
+    opacity: .8;
+    visibility: visible;
+  }
+  .nav-open .hamburger__line--1 {
+    transform: rotate(45deg);
+    top: 20px;
+  }
+  .nav-open .hamburger__line--2 {
+    width: 0;
+    left: 50%;
+  }
+  .nav-open .hamburger__line--3 {
+    transform: rotate(-45deg);
+    top: 20px;
+  }
+}
+
+@media screen and (min-width:768px) and ( max-width:1023px) { /*ipad対応*/
+    .container {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 375px;
+    }
+    
+    /* --------------------------------
+     * header
+     * -------------------------------- */
+    
+    .header {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      justify-content: space-around;
+    }
+    
+    header .logo {
+      margin-top:20px;
+      margin-left: 3.69%;
+      background-image: url("../images/logo_SP.png");
+      background-repeat: no-repeat;
+      width:100%;
+      height:100px;
+      background-size: 132px;
+    }
+    
+    header nav {
+      margin-top: 32px;
+      margin-right: 4%;
+    }
+    
+    header li {
+      margin-top: 161px;
+      margin-bottom: 120px;
+      /* li間の幅を開くために左にマージンを取っている */
+      font-size: 46px;
+      font-family: "YuGothic", "Yu Gothic";
+      font-weight: bold;
+      color: #5F2201;
+      cursor: pointer;
+    }
+    
+    /* --------------------------------
+     * title_image
+     * -------------------------------- */
+    
+    .title_image {
+      height: 397px;
+      background: url('../images/cat_1_A0_Group_14_pattern.png') no-repeat;
+      background-size:auto 51.25vw;
+    }
+    
+    /* --------------------------------
+     * main
+     * -------------------------------- */
+    
+    .main {}
+    
+    .title {
+      font-size: 20px;
+      font-family: "YuGothic", "Yu Gothic";
+      font-weight: "bold";
+      color: #5F2201;
+      text-align: center;
+      width: 100%;
+      line-height: 180px;
+      margin-top: -26px;
+    }
+    
+    .text {
+      font-size: 14.5px;
+      font-family: "YuGothic", "Yu Gothic";
+      color: #000000;
+      line-height: 26px;
+    }
+    
+    .btn {
+      height: 50px;
+      text-align: center;
+      background-color: #FFFFFF;
+      color: #5F2201;
+      font-size: 16px;
+      border-width: medium;
+      font-family: "YuGothic", "Yu Gothic";
+      font-weight: bold;
+      border-color: #5F2201;
+      border-radius: 25px 25px 25px 25px;
+      cursor: pointer;
+    }
+    
+    .btn:hover {
+      color: #FFFFFF;
+      background-color: #5F2201;
+    }
+    
+    .skill_container {
+      height: 1134px;
+    }
+    
+    .skill_container .skill_item1 {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 85px;
+      margin-top: -43px;
+      margin-left: 14px;
+    }
+    
+    .img_cat2 {
+      width:100%;
+      height: 100%;
+      background: url('../images/cat-2_SP.png') no-repeat;
+    }
+    
+    .skill_container .skill_text1 {
+      width: 355px;
+      margin-top: -13px;
+    }
+    
+    .skill_container .skill_item2 {
+      display: flex; 
+      flex-direction: column-reverse;
+      width: 100%;
+      height: 550px;
+      margin-top:-37px;
+      margin-left: 15px;
+    }
+    
+    .img_cat3 {
+      width:383px;
+      height: 259px;
+      background: url('../images/cat-3.png') no-repeat;
+      background-size: 90%;
+    }
+    
+    .skill_container .skill_text2 {
+      width: 355px;
+      position: relative;
+      top:30px;
+    }
+    
+    .about_container {
+      background-color: #FFF3DD;
+      height: 947px;
+    }
+    
+    .about_container .about_title {
+       position: relative;
+       top:-30px;
+    }
+    
+    .about_container .about {
+      width: 100%;
+      margin-top:-80px;
+      margin-left:63px;
+      
+    }
+    
+    .about_container .about .about_item {
+      text-align: center;
+    }
+    
+    .about_container .about .about_item p {
+      margin-top: -141px;
+      margin-left:-35%;
+    }
+    
+    .about_container .about .about_item .img_cat4  {
+      width:300px;
+      height: 420px;
+      background: url('../images/cat-4.png') no-repeat;
+      margin-top:5px;
+    }
+    
+    .about_container .about .about_item .img_cat5 {
+      width:300px;
+      height: 420px;
+      background: url('../images/cat-5.png') no-repeat;
+      margin-top:40px;
+    }
+    
+    .about_container .about_btn_wrapper {
+      margin-top: 42px;
+      text-align: center;
+    }
+    
+    .about_container .about_btn_wrapper .about_btn {
+      width: 120px;
+    }
+    
+    .contact_container {
+      height: 629px;
+    }
+    
+    .contact_container .contact {
+      align-items: center;
+      margin-top: -44px;
+      margin-left: 69px;
+    }
+    
+    .contact_container .contact_item {
+      text-align: center;
+    }
+    
+    .contact_container .img_cat6 {
+      width:300px;
+      height: 420px;
+      margin-left: -32px;
+      background: url('../images/cat-6.png') no-repeat;
+    }
+    
+    .container .contact .contact_item .contact_text{
+      width: 235px;
+      margin-top: -75px;
+    }
+    
+    .contact_container .contact_btn_wrapper .contact_btn {
+      width: 100px;
+      margin-top: 25px;
+      margin-right: 70px;
+    }
+    
+    /* --------------------------------
+     * footer
+     * -------------------------------- */
+    
+    .footer {
+      width: 100%;
+      height: 30px;
+      background-color: #B9B9B9;
+      display: table;
+    }
+    
+    .footer_title {
+      text-align: center;
+      color: #FFFFFF;
+      font-family: "YuGothic", "Yu Gothic";
+      font-size: 12px;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  
+      /* --------------------------------
+     * ハンバーガーメニュー
+     * -------------------------------- */
+    .global-nav {
+      position: fixed;
+      right: -810px; /* これで隠れる */
+      top: -32px;
+      width: 768px; /* スマホに収まるくらい */
+      height: 930px;
+      padding-top: 90px;
+      text-align: center;
+      background-color: #DDDDDD;
+      transition: all .6s;
+      z-index: 200;
+      overflow-y: auto; /* メニューが多くなったらスクロールできるように */
+    }
+    .hamburger {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 75px; /* クリックしやすいようにちゃんと幅を指定する */
+      height: 40px; /* クリックしやすいようにちゃんと高さを指定する */
+      margin-top:10px;
+      cursor: pointer;
+      z-index: 300;
+    }
+    .global-nav__list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .global-nav__item {
+      text-align: center;
+      padding: 0 14px;
+    }
+    .global-nav__item a {
+      display: block;
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+      text-decoration: none;
+      color: #111;
+    }
+    .global-nav__item a:hover {
+      background-color: #eee;
+    }
+    .hamburger__line {
+      position: absolute;
+      left: 11px;
+      width: 18px;
+      height: 2px;
+      background-color: #5F2201;
+      transition: all .6s;
+    }
+    .hamburger__line--1 {
+      top: 14px;
+    }
+    .hamburger__line--2 {
+      top: 20px;
+    }
+    .hamburger__line--3 {
+      top: 26px;
+    }
+    .black-bg {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 100;
+      background-color: #000;
+      opacity: 0;
+      visibility: hidden;
+      transition: all .6s;
+      cursor: pointer;
+    }
+    /* 表示された時用のCSS */
+    .nav-open .global-nav {
+      right: -31px;
+    }
+    .nav-open .black-bg {
+      opacity: .8;
+      visibility: visible;
+    }
+    .nav-open .hamburger__line--1 {
+      transform: rotate(45deg);
+      top: 20px;
+    }
+    .nav-open .hamburger__line--2 {
+      width: 0;
+      left: 50%;
+    }
+    .nav-open .hamburger__line--3 {
+      transform: rotate(-45deg);
+      top: 20px;
+    }  
+  }
+
+  @media screen and (max-width: 320px) { /*ウィンドウ幅が最大360pxまでの場合に適用(SP)*/
+    .container {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 375px;
+    }
+    
+    /* --------------------------------
+     * header
+     * -------------------------------- */
+    
+    .header {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      justify-content: space-around;
+    }
+    
+    header .logo {
+      margin-top:20px;
+      margin-left: 3.69%;
+      background-image: url("../images/logo_SP.png");
+      background-repeat: no-repeat;
+      width:100%;
+      height:100px;
+      background-size: 132px;
+    }
+    
+    header nav {
+      margin-top: 32px;
+      margin-right: 4%;
+    }
+    
+    header li {
+      margin-top:74px;
+      margin-bottom: 120px;
+      /* li間の幅を開くために左にマージンを取っている */
+      font-size: 26px;
+      font-family: "YuGothic", "Yu Gothic";
+      font-weight: bold;
+      color: #5F2201;
+      cursor: pointer;
+    }
+    
+    /* --------------------------------
+     * title_image
+     * -------------------------------- */
+    
+    .title_image {
+      height: 192px;
+      background: url('../images/cat_1_A0_Group_14_pattern.png') no-repeat;
+      background-size:auto 51.25vw;
+    }
+    
+    /* --------------------------------
+     * main
+     * -------------------------------- */
+    
+    .main {}
+    
+    .title {
+      font-size: 20px;
+      font-family: "YuGothic", "Yu Gothic";
+      font-weight: "bold";
+      color: #5F2201;
+      text-align: center;
+      width: 100%;
+      line-height: 180px;
+      margin-top: -26px;
+    }
+    
+    .text {
+      font-size: 11.3px;
+      font-family: "YuGothic", "Yu Gothic";
+      color: #000000;
+      line-height: 20px;
+    }
+    
+    .btn {
+      height: 50px;
+      text-align: center;
+      background-color: #FFFFFF;
+      color: #5F2201;
+      font-size: 16px;
+      border-width: medium;
+      font-family: "YuGothic", "Yu Gothic";
+      font-weight: bold;
+      border-color: #5F2201;
+      border-radius: 25px 25px 25px 25px;
+      cursor: pointer;
+    }
+    
+    .btn:hover {
+      color: #FFFFFF;
+      background-color: #5F2201;
+    }
+    
+    .skill_container {
+      height: 934px;
+    }
+    
+    .skill_container .skill_item1 {
+      width: 85%;
+      height: 300px;
+      margin-top: -43px;
+      margin-left: 7.5%;
+    }
+    
+    .img_cat2 {
+      width:100%;
+      height: 100%;
+      background: url('../images/cat-2_SP.png') no-repeat;
+      background-size: 100%;
+    }
+    
+    .skill_container .skill_text1 {
+      width: 100%;
+      margin-top: -73px;
+      margin-left:2px;
+    }
+    
+    .skill_container .skill_item2 {
+      display: flex; 
+      flex-direction: column-reverse;
+      width: 93%;
+      height: 550px;
+      margin-top:-117px;
+      margin-left: 7%;
+    }
+    
+    .img_cat3 {
+      width:100%;
+      height: 259px;
+      background: url('../images/cat-3.png') no-repeat;
+      background-size: 92%;
+    }
+    
+    .skill_container .skill_text2 {
+      width: 100%;
+      margin-top: -43px;
+      margin-left:-2px;
+    }
+    
+    .about_container {
+      background-color: #FFF3DD;
+      height: 947px;
+    }
+    
+    .about_container .about_title {
+       position: relative;
+       top:-30px;
+    }
+    
+    .about_container .about {
+      width: 85%;
+      margin-top:-80px;
+      margin-left:36px;
+      
+    }
+    
+    .about_container .about .about_item {
+      text-align: center;
+    }
+    
+    .about_container .about .about_item p {
+      margin-top: -141px;
+      margin-left:-25%;
+    }
+    
+    .about_container .about .about_item .img_cat4  {
+      width:95%;
+      background-size: 100%;
+      height: 420px;
+      background: url('../images/cat-4.png') no-repeat;
+      margin-top:5px;
+      
+    }
+    
+    .about_container .about .about_item .img_cat5 {
+      width:95%;
+      height: 420px;
+      background-size: 100%;
+      background: url('../images/cat-5.png') no-repeat;
+      margin-top:40px;
+    }
+    
+    .about_container .about_btn_wrapper {
+      margin-top: 42px;
+      text-align: center;
+    }
+    
+    .about_container .about_btn_wrapper .about_btn {
+      width: 120px;
+    }
+    
+    .contact_container {
+      height: 629px;
+    }
+    
+    .contact_container .contact {
+      align-items: center;
+      margin-top: -44px;
+      margin-left: 42px;
+    }
+    
+    .contact_container .contact_item {
+      text-align: center;
+    }
+    
+    .contact_container .img_cat6 {
+      width:95%;
+      height: 420px;
+      background: url('../images/cat-6.png') no-repeat;
+      margin-left:-5%;
+    }
+    
+    .container .contact .contact_item .contact_text{
+      width: 235px;
+      margin-top: -75px;
+    }
+    
+    .contact_container .contact_btn_wrapper .contact_btn {
+      width: 100px;
+      margin-top: 25px;
+      margin-right: 45px;
+    }
+    
+    /* --------------------------------
+     * footer
+     * -------------------------------- */
+    
+    .footer {
+      width: 100%;
+      height: 30px;
+      background-color: #B9B9B9;
+      display: table;
+    }
+    
+    .footer_title {
+      text-align: center;
+      color: #FFFFFF;
+      font-family: "YuGothic", "Yu Gothic";
+      font-size: 12px;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  
+      /* --------------------------------
+     * ハンバーガーメニュー
+     * -------------------------------- */
+    .global-nav {
+      position: fixed;
+      right: -390px; /* これで隠れる */
+      top: 0;
+      width: 325px; /* スマホに収まるくらい */
+      height: 721px;
+      padding-top: 90px;
+      text-align: center;
+      background-color: #DDDDDD;
+      transition: all .6s;
+      z-index: 200;
+      overflow-y: auto; /* メニューが多くなったらスクロールできるように */
+    }
+    .hamburger {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 75px; /* クリックしやすいようにちゃんと幅を指定する */
+      height: 40px; /* クリックしやすいようにちゃんと高さを指定する */
+      margin-top:10px;
+      cursor: pointer;
+      z-index: 300;
+    }
+    .global-nav__list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .global-nav__item {
+      text-align: center;
+      padding: 0 14px;
+    }
+    .global-nav__item a {
+      display: block;
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+      text-decoration: none;
+      color: #111;
+    }
+    .global-nav__item a:hover {
+      background-color: #eee;
+    }
+    .hamburger__line {
+      position: absolute;
+      left: 11px;
+      width: 18px;
+      height: 2px;
+      background-color: #5F2201;
+      transition: all .6s;
+    }
+    .hamburger__line--1 {
+      top: 14px;
+    }
+    .hamburger__line--2 {
+      top: 20px;
+      
+    }
+    .hamburger__line--3 {
+      top: 26px;
+    }
+    .black-bg {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 100;
+      background-color: #000;
+      opacity: 0;
+      visibility: hidden;
+      transition: all .6s;
+      cursor: pointer;
+    }
+    /* 表示された時用のCSS */
+    .nav-open .global-nav {
+      right: -15px; 
+      top:-32px;
+    }
+    .nav-open .black-bg {
+      opacity: .8;
+      visibility: visible;
+    }
+    .nav-open .hamburger__line--1 {
+      transform: rotate(45deg);
+      top: 20px;
+    }
+    .nav-open .hamburger__line--2 {
+      width: 0;
+      left: 50%;
+    }
+    .nav-open .hamburger__line--3 {
+      transform: rotate(-45deg);
+      top: 20px;
+    }
+  }
+
+  @media screen and (min-width: 321px) and (max-width: 499px) { /*ウィンドウ幅が最大360pxまでの場合に適用(SP)*/
+    .container {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 375px;
+    }
+    
+    /* --------------------------------
+     * header
+     * -------------------------------- */
+    
+    .header {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      justify-content: space-around;
+    }
+    
+    header .logo {
+      margin-top:20px;
+      margin-left: 3.69%;
+      background-image: url("../images/logo_SP.png");
+      background-repeat: no-repeat;
+      width:100%;
+      height:100px;
+      background-size: 132px;
+    }
+    
+    header nav {
+      margin-top: 32px;
+      margin-right: 4%;
+    }
+    
+    header li {
+      margin-top:74px;
+      margin-bottom: 120px;
+      /* li間の幅を開くために左にマージンを取っている */
+      font-size: 26px;
+      font-family: "YuGothic", "Yu Gothic";
+      font-weight: bold;
+      color: #5F2201;
+      cursor: pointer;
+    }
+    
+    /* --------------------------------
+     * title_image
+     * -------------------------------- */
+    
+    .title_image {
+      height: 192px;
+      background: url('../images/cat_1_A0_Group_14_pattern.png') no-repeat;
+      background-size:auto 51.25vw;
+    }
+    
+    /* --------------------------------
+     * main
+     * -------------------------------- */
+    
+    .main {}
+    
+    .title {
+      font-size: 20px;
+      font-family: "YuGothic", "Yu Gothic";
+      font-weight: "bold";
+      color: #5F2201;
+      text-align: center;
+      width: 100%;
+      line-height: 180px;
+      margin-top: -26px;
+    }
+    
+    .text {
+      font-size: 14.5px;
+      font-family: "YuGothic", "Yu Gothic";
+      color: #000000;
+      line-height: 170%;
+    }
+    
+    .btn {
+      height: 50px;
+      text-align: center;
+      background-color: #FFFFFF;
+      color: #5F2201;
+      font-size: 16px;
+      border-width: medium;
+      font-family: "YuGothic", "Yu Gothic";
+      font-weight: bold;
+      border-color: #5F2201;
+      border-radius: 25px 25px 25px 25px;
+      cursor: pointer;
+    }
+    
+    .btn:hover {
+      color: #FFFFFF;
+      background-color: #5F2201;
+    }
+    
+    .skill_container {
+      height: 1130px;
+    }
+    
+    .skill_container .skill_item1 {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 85px;
+      margin-top: -17%;
+      margin-left: 0px;
+    }
+    
+    .img_cat2 {
+      width:100%;
+      height: 100%;
+      background: url('../images/cat-2_SP.png') no-repeat;
+      background-position: center;
+    }
+    
+    .skill_container .skill_text1 {
+      width: 97%;
+      margin-top: 2.4%;
+      margin-left:2%;
+    }
+    
+    .skill_container .skill_item2 {
+      display: flex; 
+      flex-direction: column-reverse;
+      width: 100%;
+      height: 550px;
+      margin-top:-5.5%;
+    }
+    
+    .img_cat3 {
+      width:92%;
+      height: 100%;
+      background: url('../images/cat-3.png') no-repeat;
+      margin-bottom: -76%;
+      background-size:100%;
+      margin-left:4%;
+    }
+    
+    .skill_container .skill_text2 {
+      width: 95%;
+      position: relative;
+      top:5.1%;
+      margin-left:2.1%;
+    }
+    
+    .about_container {
+      background-color: #FFF3DD;
+      height: 947px;
+    }
+    
+    .about_container .about_title {
+       position: relative;
+       top:-3%;
+    }
+    
+    .about_container .about {
+      width: 85%;
+      margin-top:-80px;
+      margin-left:42px;
+      
+    }
+    
+    .about_container .about .about_item {
+      text-align: center;
+    }
+    
+    .about_container .about .about_item p {
+      margin-top: -138px;
+      margin-left:-5%;
+    }
+    
+    .about_container .about .about_item .img_cat4  {
+      width:85%;
+      height: 420px;
+      background: url('../images/cat-4.png') no-repeat;
+      margin-top:9px;    
+      margin-left:20px;
+    }
+    
+    .about_container .about .about_item .img_cat5 {
+      width:85%;
+      height: 420px;
+      background: url('../images/cat-5.png') no-repeat;
+      margin-top:40px;
+      margin-left:20px;
+    }
+    
+    .about_container .about_btn_wrapper {
+      margin-top: 42px;
+      text-align: center;
+    }
+    
+    .about_container .about_btn_wrapper .about_btn {
+      width: 120px;
+    }
+    
+    .contact_container {
+      height: 632px;
+    }
+    
+    .contact_container .contact {
+      align-items: center;
+      margin-top: -44px;
+      margin-left: 21px;
+    }
+    
+    .contact_container .contact_item {
+
+    }
+    
+    .contact_container .img_cat6 {
+      width:85%;
+      height: 420px;
+      background: url('../images/cat-6.png') no-repeat;
+      margin-left:5%;
+      margin-top: 2%;
+      
+    }
+    
+    .container .contact .contact_item .contact_text{
+      width: 235px;
+      margin-top: -75px;
+      margin-left:85px;
+    }
+    
+    .contact_container .contact_btn_wrapper .contact_btn {
+      width: 100px;
+      margin-top: 23px;
+      margin-left: 33%;
+    }
+    
+    /* --------------------------------
+     * footer
+     * -------------------------------- */
+    
+    .footer {
+      width: 100%;
+      height: 30px;
+      background-color: #B9B9B9;
+      display: table;
+    }
+    
+    .footer_title {
+      text-align: center;
+      color: #FFFFFF;
+      font-family: "YuGothic", "Yu Gothic";
+      font-size: 12px;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  
+      /* --------------------------------
+     * ハンバーガーメニュー
+     * -------------------------------- */
+    .global-nav {
+      position: fixed;
+      right: -105%; /* これで隠れる */
+      top: 0;
+      width: 100.1%; /* スマホに収まるくらい */
+      height: 721px;
+      padding-top: 90px;
+      text-align: center;
+      background-color: #DDDDDD;
+      transition: all .6s;
+      z-index: 200;
+      overflow-y: auto; /* メニューが多くなったらスクロールできるように */
+    }
+    .hamburger {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 75px; /* クリックしやすいようにちゃんと幅を指定する */
+      height: 40px; /* クリックしやすいようにちゃんと高さを指定する */
+      margin-top:10px;
+      cursor: pointer;
+      z-index: 300;
+    }
+    .global-nav__list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .global-nav__item {
+      text-align: center;
+      padding: 0 14px;
+    }
+    .global-nav__item a {
+      display: block;
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+      text-decoration: none;
+      color: #111;
+    }
+    .global-nav__item a:hover {
+      background-color: #eee;
+    }
+    .hamburger__line {
+      position: absolute;
+      left: 11px;
+      width: 18px;
+      height: 2px;
+      background-color: #5F2201;
+      transition: all .6s;
+    }
+    .hamburger__line--1 {
+      top: 14px;
+    }
+    .hamburger__line--2 {
+      top: 20px;
+      
+    }
+    .hamburger__line--3 {
+      top: 26px;
+    }
+    .black-bg {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 100;
+      background-color: #000;
+      opacity: 0;
+      visibility: hidden;
+      transition: all .6s;
+      cursor: pointer;
+    }
+    /* 表示された時用のCSS */
+    .nav-open .global-nav {
+      right: -15px; 
+      top:-32px;
+    }
+    .nav-open .black-bg {
+      opacity: .8;
+      visibility: visible;
+    }
+    .nav-open .hamburger__line--1 {
+      transform: rotate(45deg);
+      top: 20px;
+    }
+    .nav-open .hamburger__line--2 {
+      width: 0;
+      left: 50%;
+    }
+  }
+    .nav-open .hamburger__line--3 {
+      transform: rotate(-45deg);
+      top: 20px;
+    }
+}
