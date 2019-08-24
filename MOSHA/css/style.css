@@ -1,12 +1,5 @@
 @charset "UTF-8";
-/* iPhone  */
-@media screen and (min-width: 480px) {
-  /* for iPhone Landscape (iPhone) */
-}
-
 @media screen and (min-width: 768px) {
-  /* 後々は、mediaクエリを入れ子にして、⇒の2個に分割予定。　
-  　　　　　　　　　　　　　　　　　　　　　　media screen and (min-width: 768px) and (max-width: 1190px) 　media screen and (min-width: 1190px) */
   body .btn {
     color: #ffffff;
     text-align: center;
@@ -14,7 +7,6 @@
     border: 1px;
     border-color: #ffffff;
     border-radius: 50px;
-    /* 影を消すため */
     outline: none;
     cursor: pointer;
   }
@@ -74,16 +66,12 @@
   }
   body .circle_mark {
     width: 80px;
-    /*幅*/
     height: 80px;
-    /*高さ*/
     margin: auto;
     line-height: 80px;
     text-align: center;
     background: #ebb94d;
-    /*背景色*/
     border-radius: 50%;
-    /*角丸*/
   }
   body .circle_mark p {
     color: #ffffff;
@@ -143,7 +131,7 @@
     position: fixed;
     z-index: 999;
     width: 100%;
-    background-color: #fff;
+    background-color: #ffffff;
   }
   .header {
     display: flex;
@@ -178,7 +166,7 @@
   }
   .title_image_margin {
     height: 79px;
-    /* 画像がヘッダーで隠れる　対策 */
+    /* �摜���w�b�_�[�ŉB���@�΍� */
   }
   /* --------------------------------
  * title_image
@@ -396,7 +384,7 @@
   }
   .main .sub_main5 {
     padding: 40px 0;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     background-color: #016ea9;
   }
@@ -448,7 +436,7 @@
     width: 370px;
     height: 194px;
     object-fit: cover;
-    /* 画像をトリミング */
+    /* �摜���g���~���O */
   }
   .main .sub_main7 .merit_container .merit .merit_txt {
     width: 362px;
@@ -518,7 +506,7 @@
   .main .sub_main8 .sub_main8_members .member .member_box {
     padding: 1px;
     padding: 26px 0px;
-    border: 3px solid #fff;
+    border: 3px solid #ffffff;
   }
   .main .sub_main8 .sub_main8_members .member .member_box .txt1 {
     padding-top: 14px;
@@ -648,7 +636,7 @@
   }
   .main .sub_main11 {
     padding: 40px 0;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     background-color: #016ea9;
   }
@@ -720,7 +708,7 @@
     margin-right: auto;
     margin-left: auto;
     padding: 58px;
-    border: 2px solid #fff;
+    border: 2px solid #ffffff;
   }
   .main .sub_main14 .white_box .box_title {
     position: absolute;
@@ -928,4 +916,8 @@
     opacity: 0 !important;
     transition: 0.8s;
   }
+}
+
+@media screen and (min-width: 480px) {
+  /* for iPhone Landscape (iPhone) */
 }
