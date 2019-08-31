@@ -1,3 +1,5 @@
+/* PC用　1190px～表示可能　*/
+//mediaクエリの入れ子で、ipad用のcssを作成予定
 @media screen and (min-width: 768px) {
     body {
         .btn {
@@ -154,6 +156,10 @@
         margin: auto;
         padding: 16px 0;
 
+        .header_btn_pc_wrapper {
+            display: none;
+        }
+
         .logo_title {
             display: flex;
             .logo {
@@ -183,7 +189,7 @@
     }
 
     .title_image_margin {
-        height: 79px; /* �摜���w�b�_�[�ŉB���@�΍� */
+        height: 79px;
     }
 
     /* --------------------------------
@@ -780,7 +786,6 @@
             }
         }
         .sub_main15 {
-            margin-top: 44px;
             padding: 80px 80px;
             color: $color_white;
             background: url('../images/specialdetail.jpg') no-repeat;

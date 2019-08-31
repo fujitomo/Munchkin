@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* PC用　1190px～表示可能　*/
 @media screen and (min-width: 768px) {
   body .btn {
     color: #ffffff;
@@ -141,6 +142,9 @@
     margin: auto;
     padding: 16px 0;
   }
+  .header .header_btn_pc_wrapper {
+    display: none;
+  }
   .header .logo_title {
     display: flex;
   }
@@ -166,7 +170,6 @@
   }
   .title_image_margin {
     height: 79px;
-    /* �摜���w�b�_�[�ŉB���@�΍� */
   }
   /* --------------------------------
  * title_image
@@ -739,7 +742,6 @@
     line-height: 23px;
   }
   .main .sub_main15 {
-    margin-top: 44px;
     padding: 80px 80px;
     color: #ffffff;
     background: url("../images/specialdetail.jpg") no-repeat;
@@ -918,6 +920,308 @@
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 768px) {
   /* for iPhone Landscape (iPhone) */
+  html {
+    font-size: 12px;
+  }
+  body .btn {
+    color: #ffffff;
+    text-align: center;
+    background-color: #da6b64;
+    border: 1px;
+    border-color: #ffffff;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+  }
+  body .btn:hover {
+    background-color: #d84940;
+  }
+  body p {
+    font-family: 'Hiragino Kaku Gothic Pro', Meiryo, Osaka, 'MS PGothic', sans-serif;
+    text-align: center;
+  }
+  body h2 {
+    padding-top: 28px;
+    padding-left: 13px;
+    font-weight: 600;
+    font-size: 1.75em;
+    font-family: 'Hiragino Kaku Gothic Pro', Meiryo, Osaka, 'MS PGothic', sans-serif;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+  body .sub_main_title {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 798px;
+    margin: auto;
+    margin-bottom: 54px;
+    padding: 15px 30px;
+  }
+  body .sub_main_title h2 {
+    line-height: 40px;
+  }
+  body .sub_main_title::before,
+  body .sub_main_title::after {
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 20px;
+    height: 50px;
+    content: '';
+  }
+  body .sub_main_title::before {
+    top: 0;
+    left: -31px;
+    width: 50px;
+    height: 50px;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+  }
+  body .sub_main_title::after {
+    right: -31px;
+    bottom: -17px;
+    width: 50px;
+    height: 50px;
+    border-right: 4px solid #ebb94d;
+    border-bottom: 4px solid #ebb94d;
+  }
+  body .circle_mark {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    line-height: 80px;
+    text-align: center;
+    background: #ebb94d;
+    border-radius: 50%;
+  }
+  body .circle_mark p {
+    color: #ffffff;
+    font-size: 0, 875rem;
+  }
+  body .font_color1 {
+    color: #ebb94d;
+  }
+  body .font_size0 {
+    font-size: 0.875rem;
+    line-height: 21px;
+  }
+  body .font_size1 {
+    font-size: 1rem;
+  }
+  body .font_size1_5 {
+    font-size: 1.125rem;
+    line-height: 28px;
+  }
+  body .font_size2 {
+    font-size: 1.25rem;
+  }
+  body .font_size2_5 {
+    font-size: 1.5rem;
+  }
+  body .font_size3 {
+    font-size: 1.75rem;
+  }
+  body .font-weightw1 {
+    font-weight: 600;
+  }
+  body ul {
+    list-style: none;
+  }
+  body .sns_btn {
+    height: 24px;
+    margin: 21px 0 0 0;
+  }
+  body .sns_btn .sns_btn_inner {
+    position: relative;
+    left: 50.5%;
+    float: left;
+    height: 0;
+  }
+  body .sns_btn .sns_btn_inner .fb,
+  body .sns_btn .sns_btn_inner .tw {
+    position: relative;
+    left: -50%;
+    float: left;
+    height: 2px;
+    margin: 0 10px 0 0;
+  }
+  /* --------------------------------
+ * header
+ * -------------------------------- */
+  header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    margin: auto;
+  }
+  .header .header_btn_wrapper {
+    display: none;
+  }
+  .header .logo_title {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 64px 11px;
+  }
+  .header .logo_title .logo img {
+    width: 90px;
+    height: auto;
+    margin: 4px 0;
+  }
+  .header .logo_title .title {
+    margin-left: -5%;
+  }
+  .header .logo_title .title p {
+    width: 104%;
+    font-weight: 600;
+    font-size: 0.833333333rem;
+  }
+  .header .btn {
+    width: 76px;
+    height: 62.4px;
+    border-radius: unset;
+  }
+  .header .btn img {
+    width: 20px;
+    margin: -2px;
+  }
+  .header .btn a {
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+  }
+  /* --------------------------------
+     * title_image
+     * -------------------------------- */
+  .title_image .image {
+    height: 312px;
+    padding-top: 120px;
+    background: url("../images/mainsp.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .title_image .title1 {
+    position: absolute;
+    top: 92px;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  .title_image .title1 p {
+    margin-bottom: 14px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .title_image .title2 {
+    text-align: center;
+  }
+  .title_image .title2 img {
+    position: absolute;
+    top: 163px;
+    right: 0;
+    left: 0;
+    width: 311px;
+    margin: auto;
+  }
+  .title_image .title3 {
+    position: absolute;
+    top: 311px;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  .title_image .title3 p {
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  /* --------------------------------
+ * main
+ * -------------------------------- */
+  .main .sub_main1 {
+    height: 512px;
+    margin-top: -59px;
+    padding: 15px 0;
+    background-color: #ebb94d;
+  }
+  .main .sub_main1 p {
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .main .sub_main1 .remarks {
+    width: 93%;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 4px;
+  }
+  .main .sub_main1 .remarks p {
+    margin-bottom: 10px;
+    color: #c7245e;
+    font-size: 1.125rem;
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+    line-height: 100px;
+    line-height: 23px;
+  }
+  .main .sub_main1 .remarks p code {
+    padding: 3px;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+  .main .sub_main1 .sub_main1_btn_wrapper {
+    margin-top: 51px;
+    text-align: center;
+  }
+  .main .sub_main1 .sub_main1_btn_wrapper .sub_main1_btn {
+    width: 89%;
+    height: 92.8px;
+  }
+  .main .sub_main1 .sub_main1_btn_wrapper .sub_main1_btn p {
+    width: 253px;
+    margin: auto;
+    margin-bottom: -10px;
+    font-size: 1.75rem;
+  }
+  .main .sub_main1 .info_period {
+    margin-top: 29px;
+  }
+  .main .sub_main1 .info_period p {
+    width: 96%;
+    margin-bottom: 40px;
+    font-size: 1.25rem;
+    line-height: 22px;
+  }
+  .main .sub_main2 {
+    width: auto;
+    height: 519px;
+    padding: 40px 0;
+    background-color: #fef5e0;
+    background-image: url(../images/introbottom.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .main .sub_main2 p {
+    font-weight: 300;
+    font-size: 1.66666667rem;
+    line-height: 35px;
+    text-align: center;
+  }
+  .main .sub_main2 p .under_bar {
+    font-weight: 600;
+    background: linear-gradient(transparent 70%, #ebb94d 70%);
+  }
 }
