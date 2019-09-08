@@ -1,0 +1,4 @@
+//px⇒rem変換
+@function _rem($self, $parent) {
+    @return ($self / $parent) * 1rem;
+}
